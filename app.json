@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Movie Viewer App",
+    "slug": "movie-viewer-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "movie-viewer-app",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1f0ef374-5499-401d-a4ef-684a41d15984"
+      }
+    },
+    "owner": "icarusv",
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
